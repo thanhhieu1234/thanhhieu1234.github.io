@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    width: 1200px;
+    height: 130px;
+    background-color:rgb(53, 23, 23);
+}
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.search {
+    width: 90%;
+    float: left;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 100%;
+    
+}
+.dangky:hover{
+    color: red;
+}
+
+.dangky {
+    border: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    font-size: 18px;
+    float: right;
+    padding-top: 5px;
+    margin: 20px;
+    width: 100px;
+}.dangnhap {
+    border: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    font-size: 18px;
+    float: right;
+    padding-top: 5px;
+    margin: 20px;
+    width: 100px;
+}
+.dangnhap:hover{
+   color: red;
+}
+
+header .timkiem {
+    line-height: 65px;
+    float: right;
+    margin-right: 100px;
+    width: 400px;
+}
+nav {
+    height: 60px;
+    width: 90%;
+    float: left;
+    text-align: center;
+    background-color: rgb(204, 99, 24);
+}.menu {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav  ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    
+}
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px;
+}
+nav>ul>li :hover {
+    color: yellowgreen;
+}
+article .lienhe h3{
+    margin-left: 100px;
+    color: red;
+    font-size: 20px;
+}
+article .hoten{
+    margin-left: 100px;
+    font-size: 20px;
+}
+.control{
+    width: 50%;
+    height: 15%;
+
+}
+article .gui button{
+    margin-left: 100px;
+    border-radius: 5px;
+    width: 70px;
+    font-weight: bold;
+}
+article .lienhe2{
+   margin-left: 100px;
+   font-size: 20px;
+}
+.chinhanh{
+    margin-left: 100px;
+    font-size: 20px;
+}
+.phancuoiright ul li a {
+    padding: 5px;
+    margin-left: 160px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.phancuoiright ul li a:hover {
+    color: aquamarine;
+}
+
+.phancuoicenter h4 {
+    color: red;
+    position: relative;
+    left: 520px;
+    bottom: 140px;
+    margin: 5px;
+
+}
+
+.phancuoicenter ul li a {
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 520px;
+    bottom: 140px;
+
+}
+
+.phancuoicenter ul li a:hover {
+    color: aquamarine;
+}
+ul{
+    list-style-type: none ;
+}.phancuoiright h4 {
+    color: red;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 160px;
+}
